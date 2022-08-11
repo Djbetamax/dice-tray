@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>DiceTracer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Select a dice to roll:</h1>
+    <div class="diceWrapper">
+      <button id="dice4" class="dice" value="dice4" for="rollDice" >D4</button>
+      <button id="dice6" class="dice" value="dice6" for="rollDice">D6</button>
+      <button id="dice8" class="dice" value="dice8" for="rollDice">D8</button>
+      <button id="dice10" class="dice" value="dice10" for="rollDice">D10</button>
+      <button id="dice12" class="dice" value="dice12" for="rollDice">D12</button>
+      <button id="dice20" class="dice" value="dice20" for="rollDice">D20</button>
+    </div>
+    <!-- TODO: seach a way to select a dice first and press a button to roll it -->
+    <!-- <form action="">
+      <div class="rollTimesWrapper">
+        <p>Roll times:</p>
+        <input type="number"  name="rollTimes" id="rollTimes" class="rollTimes" placeholder="0" min="1" required>
+      </div>
+        <button  type="submit" class="roll-dice" id="btnRoll">Roll it</button> -->
+        <div id="resultWrapper">
+          <p id="resultAnnounce"></p>
+        </div>
+<!-- </form> -->
+  </div>
+  
+    <script src="app.js"></script>
+</body>
+</html>
